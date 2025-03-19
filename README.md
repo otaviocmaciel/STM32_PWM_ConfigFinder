@@ -1,7 +1,7 @@
 # STM32 PWM Configuration Finder
 
 ## Overview
-This project provides a MATLAB script for calculating and listing all possible configurations for generating a desired PWM frequency using the basic timers of the STM32F1 microcontroller family. The script determines suitable values for Prescaler (PSC) and Auto-Reload Register (ARR) that produce the closest possible frequency within a given tolerance.
+This project provides a MATLAB script for calculating and listing all possible configurations for generating a desired PWM frequency using the basic timers of the STM32 microcontroller family. The script determines suitable values for Prescaler (PSC) and Auto-Reload Register (ARR) that produce the closest possible frequency within a given tolerance.
 
 This script is useful for simple PWM generation and can be applied to basic timers (e.g., TIM2, TIM3, TIM4) in STM32F1, making it ideal for tasks such as LED dimming, motor control, and other applications requiring precise PWM signals.
 
